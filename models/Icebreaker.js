@@ -3,10 +3,10 @@
 
 class Icebreaker{
   question(){
-    Question.Find()
+    Question.Find(const Question = require('./Question.js'))
   }
 }
 
 module.exports = Icebreaker
 
-const Icebreaker = require('./Question.js')
+
